@@ -1,0 +1,162 @@
+/*미디어스크린시작*/
+@media screen and (max-width:1200px){
+    header#header_inner,div#footer_inner,div#collections_inner{
+    width:98%;
+    }
+    div#newest_arrow,ul#newest_list li:nth-child(4){
+    display:none;
+    }
+    
+    ul#newest_list{
+    width:847px; 
+    }
+
+    ul#newest_list li{
+    margin-right:44px;
+    }
+
+    ul#newest_list li:nth-child(3){
+    margin-right:0px;
+    }
+    
+   
+}
+@media screen and (max-width:980px){
+    div#banner_inner,div#intro_contents{
+        width:98%
+    }
+       
+    h1#logo{
+        left:50%; margin-left:-44px;
+    }
+    p#mobilemenu{
+        display:block;
+    }
+    ul#mainmenu_list li,a#arrow_preview,
+    a#arrow_next{
+        display:none;
+    }
+
+    
+    div#collections_visual_wrap{
+        display:none;
+    }
+    div#collections_contents_wrap{
+        width:100%; 
+    }  
+}
+
+  
+@media screen and (max-width:768px){ 
+    
+    a#banner_text{
+        font:bold 1.5em "Open Sans";     
+    }
+   
+    
+    
+
+    ul#newest_list li:nth-child(3){
+        display:none; 
+       
+    }
+    ul#newest_list{
+        width:594px; 
+    }
+    ul#newest_list li{
+        margin-right:88px;
+    }
+    ul#newest_list li:nth-child(2){
+        margin-right:0px;
+    }
+    
+     
+}
+
+@media screen and (max-width:480px){
+    div#visual_wrap{
+        height:374px;
+    }
+    div#banner_wrap{
+        height:116px;
+    }
+    div#intro_wrap{
+        height:421px;
+    }
+    a#banner_text{
+        font:bold 0.875em "Open Sans"; 
+        
+    }
+    a#banner_image {
+        width:131px;
+    }  
+    
+    h1.title{
+        font:bold 1.5em "Noto Sans";
+    }
+    h2.sub_title{
+        font:normal 0.875em "Noto Sans KR";
+    } 
+    
+    div.intro_won{
+        width:121px; height:121px;    
+    }
+    p.intro_won_text{
+        font:normal 1.125em/18px "Noto Sans KR";
+    }
+    p.intro_won_text span{
+        font:normal 0.667em/12px "Noto Sans KR";
+    }
+    ul#newest_list{
+        width:253px;
+    }
+    ul#newest_list li:nth-child(2){
+        display:none  
+    }
+    ul#newest_list li:nth-child(1){
+        margin-right:0px;
+    }
+
+    div#newest_text,div#recommend_text,div#collections_text,
+    div#intro_text{  
+        width:80%; 
+    }
+    div#collections_contents{
+        width:100%;
+    }
+    ul#collections_sub_img_list li:nth-child(3),
+    ul#collections_sub_img_list li:nth-child(2){
+        display:none;
+    }
+    ul#collections_sub_img_list li:nth-child(1){
+    margin-right:0px; position: absolute; left:50%;
+    margin-left:-75px; top:50%; margin-top:-96px;
+    
+    }
+    ul#collections_sub_img_list{
+        width:100%;
+    }
+    ul#collections_dot{
+        top:530px;  
+    }
+    ul#newest_dot{
+        margin-top:48px;
+    }
+    div#intro_contents{
+        margin-top:50px
+    }
+    
+    
+}
+
+@media screen and (orientation:portrait){
+    
+
+
+}
+@media screen and (orientation:landscape){
+   
+
+}
+
+/*미디어스크린끝*/
